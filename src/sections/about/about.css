@@ -1,0 +1,204 @@
+#about {
+  width: 100vw;
+  /* border: 2px solid red; */
+}
+section {
+  /* border: 2px solid red; */
+  padding: 5rem 0;
+}
+.about__container {
+  width: 80%;
+  /* border: 2px solid red; */
+}
+.about__top {
+  /* border: 2px solid yellow; */
+  /* margin-top: 164px; */
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 96px;
+}
+.about__top .about__left {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.about__top .about__left h4 {
+  /* border: 2px solid red; */
+  /* width: 665px;
+  height: 42px; */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-shadow: 0px 6px 24px rgba(0, 0, 0, 0.25);
+  /* margin-bottom: 60px; */
+}
+.about__top .about__left .about__left-paragraphs {
+  /* border: 2px solid saddlebrown; */
+  width: 605px;
+  height: 264px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.about__portrait {
+  border-radius: 9px;
+  width: 316px;
+  height: 395px;
+  transition: var(--transition);
+  position: relative;
+}
+.about__portrait img {
+  border-radius: 9px;
+}
+.about__portrait::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  width: 330.11px;
+  height: 395.09px;
+  top: 8%;
+  left: 12%;
+  border: 7.73585px solid #52d6f4;
+  border-radius: 9px;
+  z-index: -1;
+}
+.about__top .about__left .btn {
+  /* margin-top: 20px; */
+}
+
+/* my skills */
+.about__bottom {
+  margin-top: 80px;
+  display: flex;
+  /* align-items: center; */
+  padding: 0 100px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  /* border: 2px solid blue; */
+}
+.about__bottom h4 {
+  /* width: 665px;
+  height: 42px; */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-shadow: 0px 6px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* media queries for tablet screens */
+@media screen and (max-width: 1024px) {
+  .about__top {
+    /* padding: 20px; */
+    /* border: 2px solid gold; */
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .about__top .about__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .about__portrait {
+    margin-right: 55px;
+  }
+  .about__bottom {
+    padding: 0;
+  }
+
+  /* .about__container {
+    grid-template-columns: 1fr;
+  } */
+  /* .about__right h2 {
+    text-align: center;
+  } */
+}
+
+/* media queries for mobile screens */
+@media screen and (max-width: 600px) {
+  .about__top {
+  }
+  .about__top .about__left {
+    /* border: 2px solid pink; */
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .about__top .about__left h4 {
+    width: auto;
+    height: auto;
+    /* border: 2px solid green; */
+  }
+  .about__top .about__left .about__left-paragraphs {
+    /* border: 2px solid grey; */
+    width: 330px;
+    height: auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .about__portrait {
+    border-radius: 9px;
+    width: 250px;
+    height: 345px;
+    transition: var(--transition);
+    position: relative;
+    margin-right: 55px;
+  }
+  .about__portrait::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 260.11px;
+    height: 345.09px;
+    top: 8%;
+    left: 12%;
+    border: 7.73585px solid #52d6f4;
+    border-radius: 9px;
+    z-index: -1;
+  }
+  .about__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+  .about__bottom h4 {
+    width: 300px;
+  }
+}
