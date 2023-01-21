@@ -1,4 +1,8 @@
 /* Header */
+#project-detail {
+  overflow: hidden;
+  overflow-x: hidden;
+}
 #project__details__header {
   /* border: 5px solid green; */
   display: flex;
@@ -11,6 +15,7 @@
   background-size: cover;
   color: white;
   width: 100vw;
+  overflow: hidden;
 }
 #project__details__header .header__container {
   /* border: 2px solid red; */
@@ -174,13 +179,13 @@
 }
 @media screen and (max-width: 600px) {
   #project-detail .project__detial-container {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     border: 2px solid #408697;
   }
   .project__detial-container .project__detail-image {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     border-radius: 10px;
   }
 }

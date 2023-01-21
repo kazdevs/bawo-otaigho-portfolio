@@ -167,9 +167,10 @@ header .header__socials .social__links-container a svg:hover svg {
   header .header__socials {
     display: none;
   }
-  header p {
-    /* width: 346px;
-    height: 76px; */
+  header .p__container p {
+    /* border: 2px solid green; */
+    width: 346px;
+    /* height: 76px; */
     font-family: 'Lato';
     font-style: normal;
     font-weight: 350;
