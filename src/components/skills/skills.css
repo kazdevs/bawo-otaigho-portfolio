@@ -1,5 +1,5 @@
 .skills {
-  border: 2px solid navajowhite;
+  /* border: 2px solid navajowhite; */
   display: flex;
   flex-wrap: wrap;
   width: 55%;
@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: center;
     /* border: 2px solid navajowhite; */
-    width: 100%;
+    width: 96%;
   }
   .skills li {
     border-right: none;
