@@ -10,6 +10,7 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 .header__container {
   /* border: 2px solid red; */
@@ -94,9 +95,7 @@ header .header__socials .social__links-container svg {
   width: 28px;
   height: 28px;
   color: #f6f6f6;
-  /* color: red; */
   transition: var(--transition);
-  /* color: #408697; */
 }
 header .header__socials .social__links-container a svg:hover svg {
   color: #408697;
@@ -130,8 +129,8 @@ header .header__socials .social__links-container a svg:hover svg {
   .hey-div {
     width: 35rem;
   }
-  header h1 {
-  }
+  /* header h1 {
+  } */
   header .header__socials {
     display: none;
   }

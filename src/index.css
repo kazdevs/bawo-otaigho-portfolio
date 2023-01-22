@@ -23,12 +23,13 @@ html {
 body {
   background: #363538;
   color: white;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .container {
   width: var(--container-width-lg);
   margin-inline: auto;
   max-width: 1920px;
+  overflow-x: hidden;
 }
 section {
   border: 2px solid red;
@@ -138,6 +139,10 @@ img {
 
 /* media queries for Tablets */
 @media screen and (max-width: 1024px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
   .container {
     width: var(--container-width-md);
   }
@@ -148,6 +153,10 @@ img {
 
 /* media queries for phones */
 @media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
   .btn {
     padding: 0.6rem 1.5rem;
   }

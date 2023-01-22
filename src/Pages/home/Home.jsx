@@ -16,8 +16,8 @@ function App() {
       exit={{ opacity: 1 }}
     >
       <Header />
-      {/* <About />
-      <Projects />
+      <About />
+      {/* <Projects />
       <Contact />
       <Footer /> */}
     </motion.div>
