@@ -1,10 +1,13 @@
-#about {
-  width: 100vw;
-  /* border: 2px solid red; */
-}
 section {
+  width: 100vw;
+  overflow-x: hidden;
   /* border: 2px solid red; */
   padding: 5rem 0;
+}
+#about {
+  width: 100vw;
+  overflow-x: hidden;
+  /* border: 2px solid red; */
 }
 .about__container {
   width: 80%;

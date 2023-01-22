@@ -2,7 +2,6 @@ import './App.css'
 import { useState, useEffect } from 'react'
 // import ClipLoader from 'react-spinners/ClipLoader'
 // import CircleLoader from 'react-spinners/ClipLoader'
-
 import ClockLoader from 'react-spinners/ClockLoader'
 import {
   BrowserRouter as Router,
@@ -34,19 +33,21 @@ function App() {
     )
   }
   return (
-    <Router>
-      <Navbar />
-      <AnimatePresence>
-        <Routes>
-          <Route key={Router.pathname} path='/' element={<Home />}></Route>
-          <Route
-            key={Router.pathname}
-            path='/project-detail/:id'
-            element={<ProjectDetail />}
-          ></Route>
-        </Routes>
-      </AnimatePresence>
-    </Router>
+    <div className='app'>
+      <Router>
+        <Navbar />
+        <AnimatePresence>
+          <Routes>
+            <Route key={Router.pathname} path='/' element={<Home />}></Route>
+            {/* <Route
+              key={Router.pathname}
+              path='/project-detail/:id'
+              element={<ProjectDetail />}
+            ></Route> */}
+          </Routes>
+        </AnimatePresence>
+      </Router>
+    </div>
   )
 }
 

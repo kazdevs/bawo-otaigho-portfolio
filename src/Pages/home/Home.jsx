@@ -15,12 +15,11 @@ function App() {
       transition={{ duration: 0.75, ease: easeOut }}
       exit={{ opacity: 1 }}
     >
-      {/* <Navbar /> */}
       <Header />
-      <About />
+      {/* <About />
       <Projects />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </motion.div>
   )
 }

@@ -45,7 +45,6 @@ const Navbar = () => {
           {data.map((item) => (
             <div className='li-container'>
               <motion.li variants={itemm} key={item.id}>
-                {/* <a href={item.link}>{item.title}</a> */}
                 <Link to={`/${item.link}`}>{item.title}</Link>
               </motion.li>
             </div>
@@ -70,13 +69,6 @@ const Navbar = () => {
               <div className='hamburger__navbar-menu_container-links'>
                 {data.map((item) => (
                   <li key={item.id}>
-                    {/* <a href={item.link}>{item.title}</a> */}
-                    {/* <link rel='stylesheet' href='' to={item.link}>
-                      {item.title}
-                    </link> */}
-                    {/* <Link to={`/${item.link}`} className='btn'>
-                      Learn More
-                    </Link> */}
                     <Link to={`/${item.link}`}>{item.title}</Link>
                   </li>
                 ))}

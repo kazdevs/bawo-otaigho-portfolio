@@ -1,21 +1,19 @@
 header {
-  /* border: 5px solid green; */
+  /* border: 2px solid green; */
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* margin-top: 121px; */
-  /* height: calc(100vh - 5rem); */
   color: white;
   width: 100vw;
-  overflow: hidden;
-  overflow-x: hidden;
-  /* position: relative; */
+  background: url(../../assets/Desktop\ -\ 3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header__container {
   /* border: 2px solid red; */
   margin-top: 4rem;
-  /* margin-bottom: 0px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,10 +23,13 @@ header {
 .hey-div {
   /* border: 2px solid red; */
   overflow: hidden;
-  height: auto;
-  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 0; */
 }
 header h1 {
+  /* border: 2px solid green; */
   /* width: 846px;
   height: 85px; */
   font-family: 'Raleway';
@@ -61,9 +62,9 @@ header .p__container p {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   /* text-transform: capitalize; */
   /* text-transform: lowercase; */
   text-transform: none;
@@ -122,17 +123,17 @@ header .header__socials .social__links-container a svg:hover svg {
 
 @media screen and (max-width: 1024px) {
   .header__container {
-    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
     margin-top: 5rem;
-    /* gap: 40px; */
+    gap: 30px;
+  }
+  .hey-div {
+    width: 35rem;
   }
   header h1 {
   }
   header .header__socials {
     display: none;
-  }
-  .p__container {
-    height: 120px;
   }
   header .p__container p {
     /* border: 2px solid green; */
@@ -149,27 +150,37 @@ header .header__socials .social__links-container a svg:hover svg {
 @media screen and (max-width: 600px) {
   .header__container {
     /* border: 2px solid green; */
-    margin-bottom: 10px;
-    /* gap: 25px; */
+    margin-top: 3rem;
+    gap: 28px;
+    width: 90%;
+  }
+  .hey-div {
+    width: 90%;
   }
   header h1 {
     /* border: 2px solid red; */
-    width: 400px;
-    height: 99px;
     height: auto;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 51px;
+    font-size: 42px;
+    line-height: 50px;
     text-align: center;
   }
+  .p__container {
+    /* border: 2px solid blueviolet; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   header .header__socials {
     display: none;
   }
   header .p__container p {
     /* border: 2px solid green; */
-    width: 346px;
+    width: 95%;
     /* height: 76px; */
     font-family: 'Lato';
     font-style: normal;

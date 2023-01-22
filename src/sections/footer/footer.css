@@ -1,3 +1,7 @@
+footer {
+  width: 100vw;
+  overflow: hidden;
+}
 #footer {
   width: 100vw;
   height: 219px;
