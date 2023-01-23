@@ -29,7 +29,7 @@ body {
   width: var(--container-width-lg);
   margin-inline: auto;
   max-width: 1920px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 section {
   /* border: 2px solid red; */

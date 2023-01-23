@@ -43,7 +43,6 @@ const About = () => {
             <div className='about__portrait'>
               <img src={AboutImg} alt='' />
             </div>
-            {/* <div className='box'></div> */}
           </div>
         </div>
         <div className='about__bottom'>
