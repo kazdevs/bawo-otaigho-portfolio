@@ -1,5 +1,5 @@
 footer {
-  border: 2px solid gold;
+  /* border: 2px solid gold; */
   background: linear-gradient(
     180deg,
     rgba(248, 248, 248, 0.24) 0%,
@@ -10,7 +10,7 @@ footer {
   display: grid;
   place-items: center;
   padding: 5rem 0;
-  height: 35vh;
+  height: auto;
   overflow-y: hidden;
 }
 
@@ -99,7 +99,7 @@ footer {
 @media screen and (max-width: 1024px) {
   #footer {
     /* padding: 10px 0; */
-    height: 65vh;
+    height: auto;
   }
   .footer__container {
     flex-direction: column;
