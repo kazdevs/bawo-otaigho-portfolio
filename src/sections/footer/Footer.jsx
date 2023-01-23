@@ -22,7 +22,7 @@ const Footer = () => {
           </p>
         </div>
         <div className='footer__socials'>
-          <h3>socials</h3>
+          <h2>socials</h2>
           <div className='social__icons'>
             <a href=''>
               <GrLinkedinOption />
