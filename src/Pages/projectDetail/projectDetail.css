@@ -2,6 +2,7 @@
 #project-detail {
   /* overflow: hidden; */
   overflow-x: hidden;
+  border: 2px solid pink;
 }
 #project__details__header {
   /* border: 5px solid green; */

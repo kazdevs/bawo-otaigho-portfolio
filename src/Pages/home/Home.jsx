@@ -17,8 +17,8 @@ function App() {
     >
       <Header />
       <About />
-      {/* <Projects />
-      <Contact />
+      <Projects />
+      {/* <Contact />
       <Footer /> */}
     </motion.div>
   )
