@@ -10,6 +10,8 @@ footer {
   display: grid;
   place-items: center;
   padding: 5rem 0;
+  height: 35vh;
+  /* overflow-y: hidden; */
 }
 
 .footer__container {
@@ -97,6 +99,7 @@ footer {
 @media screen and (max-width: 1024px) {
   #footer {
     /* padding: 10px 0; */
+    height: 65vh;
   }
   .footer__container {
     flex-direction: column;
