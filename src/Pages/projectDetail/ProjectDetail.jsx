@@ -31,9 +31,8 @@ const ProjectDetail = () => {
       exit={{ opacity: 1 }}
       id='project-detail'
     >
-      {/* <Navbar /> */}
-      <header id='project__details__header'>
-        <div className='container header__container'>
+      <section className='project__details__header'>
+        <div className='header__container'>
           <h1>{title}</h1>
           <p>{smallText}</p>
           <div className='btns'>
@@ -45,37 +44,40 @@ const ProjectDetail = () => {
             </a>
           </div>
         </div>
-      </header>
+      </section>
+      <div className='container project__detail__container'>
+        <section className='project__detial-container'>
+          <div className='project__detail__wrapper'>
+            <div className='project__detail-image'>
+              <img src={image} alt='' />
+            </div>
+          </div>
+        </section>
 
-      <section className='project__detial-container'>
-        <div className='project__detail-image'>
-          <img src={image} alt='' />
-        </div>
-      </section>
-
-      <section className='container project__overview'>
-        <h2>Project Overview</h2>
-        <p>{projectOverview}</p>
-        <a href='' className='btn'>
-          case study
-        </a>
-      </section>
-      <section className='container tools__used'>
-        <h2>tools used</h2>
-        <Skills></Skills>
-      </section>
-      <section className='container see__prototype'>
-        <h2>see prototype</h2>
-        <div className='btns'>
+        <section className='container project__overview'>
+          <h2>Project Overview</h2>
+          <p>{projectOverview}</p>
           <a href='' className='btn'>
-            live link
+            case study
           </a>
-          <a href='' className='btn white'>
-            go back
-          </a>
-        </div>
-      </section>
-      <Footer></Footer>
+        </section>
+        <section className='container tools__used'>
+          <h2>tools used</h2>
+          <Skills></Skills>
+        </section>
+        <section className='container see__prototype'>
+          <h2>see prototype</h2>
+          <div className='btns'>
+            <a href='' className='btn'>
+              live link
+            </a>
+            <a href='' className='btn white'>
+              go back
+            </a>
+          </div>
+        </section>
+      </div>
+      {/* <Footer></Footer> */}
     </motion.div>
   )
 }

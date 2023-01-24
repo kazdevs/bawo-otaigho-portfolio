@@ -12,6 +12,7 @@ import {
 import Navbar from './sections/navbar/Navbar'
 import Home from './Pages/home/Home'
 import ProjectDetail from './Pages/projectDetail/ProjectDetail'
+import Footer from './sections/footer/Footer'
 import { AnimatePresence } from 'framer-motion'
 function App() {
   const [loading, setLoading] = useState(false)
@@ -39,13 +40,14 @@ function App() {
         <AnimatePresence>
           <Routes>
             <Route key={Router.pathname} path='/' element={<Home />}></Route>
-            {/* <Route
+            <Route
               key={Router.pathname}
               path='/project-detail/:id'
               element={<ProjectDetail />}
-            ></Route> */}
+            ></Route>
           </Routes>
         </AnimatePresence>
+        <Footer></Footer>
       </Router>
     </div>
   )
