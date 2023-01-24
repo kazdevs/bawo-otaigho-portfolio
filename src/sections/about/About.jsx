@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/bawo.jpg'
 import Skills from '../../components/skills/Skills'
+import Cv from '../../assets/Bawo-Otaigho-Resume.pdf'
 
 const About = () => {
   return (
@@ -46,7 +47,7 @@ const About = () => {
                 experience, then don't hesitate to contact me.
               </p>
             </div>
-            <a href='#contact' download className='btn'>
+            <a href='#contact' className='btn'>
               Contact Me
             </a>
           </div>
@@ -59,7 +60,7 @@ const About = () => {
         <div className='about__bottom'>
           <h4>My skills</h4>
           <Skills></Skills>
-          <a href='#' download className='btn'>
+          <a href={Cv} download className='btn'>
             Download CV
           </a>
         </div>
