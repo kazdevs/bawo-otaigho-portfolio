@@ -10,14 +10,18 @@ const Contact = () => {
           <div className='underline'></div>
         </div>
         <p className='contact__first-p'>
-          if you like what you are looking at feel free to contact me through
-          any of the following and i’d get to you as soon as possible
+          If you like what you are looking at feel free to contact me through
+          any of the following and I’d get to you as soon as possible
         </p>
         <div className='contact__btns'>
-          <a href='' className='btn'>
+          <a href='otaighobawo@gmail.com' target='_blank' className='btn'>
             Email
           </a>
-          <a href='' className='btn white'>
+          <a
+            href='https://www.linkedin.com/in/bawo-otaigho-b49a69167/'
+            target='_blank'
+            className='btn white'
+          >
             Linkedin
           </a>
         </div>

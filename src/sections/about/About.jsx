@@ -16,18 +16,29 @@ const About = () => {
             <h4>Get to Know Me!</h4>
             <div className='about__left-paragraphs'>
               <p>
-                Hello! My name is Bawo. i’m a dedicated ux/ui designer based in
-                lagos, nigeria. i enjoy designing clean, user-intuitive
+                Hello! My name is Bawo. I’m a dedicated Ux/Ui designer based in
+                Lagos, Nigeria. I enjoy designing clean, user-intuitive
                 websites, web applications and moblie applications that leads to
                 the success of the overall product. You can check out some of my
                 work in the projects section.
               </p>
               <p>
-                I also like sharing content related to ux/ui design that I have
+                I also like sharing content related to Ux/Ui design that I have
                 learned over the years so as to help beginners looking to
                 transition into design and also update fellow designers on
                 latest design trends. Feel free to Connect or Follow me on my
-                instagram where I post useful content related to ux/ui.
+                {'  '}
+                <span style={{ color: 'red' }}>
+                  <a
+                    href='https://www.instagram.com/uidesign3r/'
+                    target='_blank'
+                    style={{ color: '#52d6f4' }}
+                  >
+                    instagram{' '}
+                  </a>
+                </span>
+                {'  '}
+                where I post useful content related to ux/ui.
               </p>
               <p>
                 I'm open to Job opportunities where I can contribute, learn and

@@ -7,12 +7,16 @@ import Navbar from '../../sections/navbar/Navbar'
 import Footer from '../../sections/footer/Footer'
 import './projectDetail.css'
 import { motion } from 'framer-motion'
+import { HashLink } from 'react-router-hash-link'
 
 const ProjectDetail = () => {
   const [title, setTitle] = useState('')
   const [projectOverview, setProjectOverview] = useState('')
   const [image, setImage] = useState('')
   const [smallText, setsmallText] = useState('')
+  const [caseStudyLink, setCaseStudyLink] = useState('')
+  const [liveLink, setLiveLink] = useState('')
+  const [prototypeLink, setPrototypeLink] = useState('')
   const { id } = useParams()
 
   useEffect(() => {
@@ -21,6 +25,9 @@ const ProjectDetail = () => {
     setImage(newPerson.image)
     setProjectOverview(newPerson.projectOverview)
     setsmallText(newPerson.smallText)
+    setLiveLink(newPerson.liveLink)
+    setPrototypeLink(newPerson.prototypeLink)
+    setCaseStudyLink(newPerson.prototypeLink)
   }, [])
 
   return (
@@ -36,10 +43,10 @@ const ProjectDetail = () => {
           <h1>{title}</h1>
           <p>{smallText}</p>
           <div className='btns'>
-            <a href='#projects' className='btn'>
+            <a href={caseStudyLink} target='_blank' className='btn'>
               Case Study
             </a>
-            <a href='#projects' className='btn white'>
+            <a href={prototypeLink} target='_blank' className='btn white'>
               View Prototype
             </a>
           </div>
@@ -57,8 +64,8 @@ const ProjectDetail = () => {
         <section className='container project__overview'>
           <h2>Project Overview</h2>
           <p>{projectOverview}</p>
-          <a href='' className='btn'>
-            case study
+          <a href={caseStudyLink} target='_blank' className='btn'>
+            Case Study
           </a>
         </section>
         <section className='container tools__used'>
@@ -68,10 +75,10 @@ const ProjectDetail = () => {
         <section className='container see__prototype'>
           <h2>see prototype</h2>
           <div className='btns'>
-            <a href='' className='btn'>
+            <a href={liveLink} target='_blank' className='btn'>
               live link
             </a>
-            <a href='' className='btn white'>
+            <a href='#home' className='btn white'>
               go back
             </a>
           </div>

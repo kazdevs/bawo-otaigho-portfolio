@@ -20,7 +20,7 @@ const Projects = () => {
           <div className='underline'></div>
         </div>
         <p className='projects__first-p'>
-          i have worked on a variety of projects both personal and proffesional.
+          I have worked on a variety of projects both personal and proffesional.
           here are some of my best ones with each project containing its own
           case study.
         </p>
@@ -33,12 +33,14 @@ const Projects = () => {
           <p>
             want to see some more amazing projects? Check my <span> </span>
             <span className='.behance__link'>
-              <a href=''>Behance</a>
+              <a href='https://www.behance.net/bawootaigho/' target='_blank'>
+                Behance
+              </a>
             </span>
-            /
+            {/* /
             <span className='dribbble'>
               <a href=''>dribbble</a>
-            </span>
+            </span> */}
           </p>
         </div>
       </motion.div>

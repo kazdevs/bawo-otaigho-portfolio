@@ -16,28 +16,32 @@ const Footer = () => {
         <div className='footer__text'>
           <h2>Bawo Otaigho</h2>
           <p>
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product,
+            A dedicated Ux/Ui Designer based in Lagos, Nigeria. I enjoy
+            designing clean, user-intuitive websites, web applications and
+            moblie applications that leads to the success of the overall
+            product.
           </p>
         </div>
         <div className='footer__socials'>
           <h2>socials</h2>
           <div className='social__icons'>
-            <a href=''>
+            <a
+              href='https://www.linkedin.com/in/bawo-otaigho-b49a69167/'
+              target='_blank'
+            >
               <GrLinkedinOption />
             </a>
-            {/* <a href=''><TfiLinkedin /></a> */}
-            <a href=''>
+
+            <a href='https://www.behance.net/bawootaigho' target='_blank'>
               <BsBehance />
             </a>
-            <a href=''>
+            <a href='https://dribbble.com/OBex' target='_blank'>
               <AiOutlineDribbble />
             </a>
-            <a href=''>
+            <a href='https://www.instagram.com/uidesign3r/' target='_blank'>
               <AiOutlineInstagram />
             </a>
-            <a href=''>
+            <a href='otaighobawo@gmail.com' target='_blank'>
               <MdEmail />
             </a>
           </div>

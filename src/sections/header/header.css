@@ -92,14 +92,15 @@ header .header__socials {
   gap: 2rem;
 }
 header .header__socials .social__links-container svg {
+  /* border: 2px solid red; */
   width: 28px;
   height: 28px;
   color: #f6f6f6;
   transition: var(--transition);
 }
-header .header__socials .social__links-container a svg:hover svg {
+/* header .header__socials .social__links-container a svg:hover svg {
   color: #408697;
-}
+} */
 /* header
   .header__socials
   .social__links-container:hover
@@ -108,10 +109,12 @@ header .header__socials .social__links-container a svg:hover svg {
   svg {
   color: #408697;
 } */
-/* header .header__socials .social__links-container svg:hover {
+header .header__socials .social__links-container svg:hover {
   color: #408697;
-  transform: translateX(-0.5rem);
-} */
+  /* overflow: visible; */
+  /* transform: translateX(0.5rem); */
+  scale: 1.2;
+}
 .social__links-container {
   /* border: 10px solid olivedrab; */
   display: flex;

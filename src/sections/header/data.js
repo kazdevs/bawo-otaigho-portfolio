@@ -13,7 +13,7 @@ const data = [
   },
   {
     id: 2,
-    link: 'https://www.behance.net/bawootaigho?tracking_source=search_users|bawo%20otaigho',
+    link: 'https://www.behance.net/bawootaigho',
     icon: <BsBehance />,
   },
   { id: 3, link: 'https://dribbble.com/OBex', icon: <AiOutlineDribbble /> },
@@ -24,7 +24,7 @@ const data = [
   },
   {
     id: 5,
-    link: 'https://www.instagram.com/uidesign3r/',
+    link: 'otaighobawo@gmail.com',
     icon: <MdEmail />,
   },
 ]

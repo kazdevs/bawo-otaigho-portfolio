@@ -19,7 +19,7 @@ const Project = ({ id, number, image, link, title, mainText }) => {
             Case study
           </a> */}
           {/* <Link className='btn'></Link> */}
-          <Link to={`/project-detail/${id}/#`} className='btn'>
+          <Link to={`/project-detail/${id}/#`} className='btn white'>
             Learn More
           </Link>
         </div>
