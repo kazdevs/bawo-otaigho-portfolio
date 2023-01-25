@@ -27,7 +27,7 @@ const ProjectDetail = () => {
     setsmallText(newPerson.smallText)
     setLiveLink(newPerson.liveLink)
     setPrototypeLink(newPerson.prototypeLink)
-    setCaseStudyLink(newPerson.prototypeLink)
+    setCaseStudyLink(newPerson.caseStudyLink)
   }, [])
 
   return (
@@ -76,7 +76,7 @@ const ProjectDetail = () => {
           <h2>see prototype</h2>
           <div className='btns'>
             <a href={liveLink} target='_blank' className='btn'>
-              live link
+              View Prototype
             </a>
             <a href='#home' className='btn white'>
               go back
