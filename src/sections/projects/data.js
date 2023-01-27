@@ -12,7 +12,7 @@ const data = [
     liveLink:
       'https://www.figma.com/proto/AWyyTtftg4YmG9WV1BRczm/App-design?node-id=92%3A169&scaling=scale-down&page-id=1%3A2&starting-point-node-id=92%3A169',
     caseStudyLink:
-      'https://www.behance.net/gallery/149465593/To-Do-List-App-Case-Study/modules/844125243instagram.com',
+      'https://www.behance.net/gallery/149465593/To-Do-List-App-Case-Study',
     prototypeLink:
       'https://www.figma.com/proto/AWyyTtftg4YmG9WV1BRczm/App-design?node-id=92%3A169&scaling=scale-down&page-id=1%3A2&starting-point-node-id=92%3A169',
     title: 'Organizer IOS App',
@@ -29,7 +29,7 @@ const data = [
     liveLink:
       'https://www.figma.com/proto/DEhZZtmb3mPkLMNkqX0mWZ/Behance-Projects?node-id=301%3A29&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=45%3A15',
     caseStudyLink:
-      'https://www.behance.net/gallery/156369909/Tea-Ecommerce-Website-UI/modules/882224645',
+      'https://www.behance.net/gallery/156369909/Tea-Ecommerce-Website-UI',
     prototypeLink:
       'https://www.figma.com/proto/DEhZZtmb3mPkLMNkqX0mWZ/Behance-Projects?node-id=301%3A29&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=45%3A15',
     title: 'Tea Ecommerce Site',
@@ -45,8 +45,7 @@ const data = [
     image: NftImg,
     liveLink:
       'https://www.figma.com/proto/DEhZZtmb3mPkLMNkqX0mWZ/Behance-Projects?node-id=212%3A3658&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=45%3A15',
-    caseStudyLink:
-      'https://www.behance.net/gallery/154799761/Nft-Landing-Page/modules/873503489',
+    caseStudyLink: 'https://www.behance.net/gallery/154799761/Nft-Landing-Page',
     prototypeLink:
       'https://www.figma.com/proto/DEhZZtmb3mPkLMNkqX0mWZ/Behance-Projects?node-id=212%3A3658&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=45%3A15',
     title: '3Dees NFT Landing Page',
@@ -63,7 +62,7 @@ const data = [
     liveLink:
       'https://www.figma.com/proto/DEhZZtmb3mPkLMNkqX0mWZ/Behance-Projects?node-id=323%3A25&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=45%3A15',
     caseStudyLink:
-      'https://www.behance.net/gallery/157435577/Real-Estate-Landing-Page-UI/modules/888219293',
+      'https://www.behance.net/gallery/157435577/Real-Estate-Landing-Page-UI',
     prototypeLink:
       'https://www.figma.com/proto/DEhZZtmb3mPkLMNkqX0mWZ/Behance-Projects?node-id=323%3A25&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=45%3A15',
     title: 'Homely Landing Page',
