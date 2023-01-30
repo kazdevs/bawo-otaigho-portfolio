@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import data from '../../sections/projects/data'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import Skills from '../../components/skills/Skills'
 import Navbar from '../../sections/navbar/Navbar'
 // import Header from '../../sections/header/Header'
@@ -32,6 +32,9 @@ const ProjectDetail = () => {
     setParagraphs(newPerson.paragraphs)
     // alert(typeof paragraphs)
   }, [])
+
+  // for Navigate back
+  const history = useNavigate()
 
   return (
     <motion.div
@@ -81,7 +84,7 @@ const ProjectDetail = () => {
             <a href={liveLink} target='_blank' className='btn'>
               View Prototype
             </a>
-            <a href='#home' className='btn white'>
+            <a href='#home' className='btn white' onClick={() => history(-1)}>
               go back
             </a>
           </div>

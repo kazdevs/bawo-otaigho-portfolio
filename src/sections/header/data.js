@@ -24,7 +24,7 @@ const data = [
   },
   {
     id: 5,
-    link: 'otaighobawo@gmail.com',
+    link: 'mailto:otaighobawo@gmail.com',
     icon: <MdEmail />,
   },
 ]

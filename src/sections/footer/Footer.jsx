@@ -41,7 +41,7 @@ const Footer = () => {
             <a href='https://www.instagram.com/uidesign3r/' target='_blank'>
               <AiOutlineInstagram />
             </a>
-            <a href='otaighobawo@gmail.com' target='_blank'>
+            <a href='mailto:otaighobawo@gmail.com' target='_blank'>
               <MdEmail />
             </a>
           </div>
