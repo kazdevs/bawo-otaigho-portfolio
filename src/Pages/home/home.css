@@ -1,0 +1,7 @@
+.gradient__bg {
+  background: url(../../assets/Desktop\ -\ 4.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}

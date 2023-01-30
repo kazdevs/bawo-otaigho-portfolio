@@ -17,6 +17,7 @@ const ProjectDetail = () => {
   const [caseStudyLink, setCaseStudyLink] = useState('')
   const [liveLink, setLiveLink] = useState('')
   const [prototypeLink, setPrototypeLink] = useState('')
+  const [paragraphs, setParagraphs] = useState([])
   const { id } = useParams()
 
   useEffect(() => {
@@ -28,6 +29,8 @@ const ProjectDetail = () => {
     setLiveLink(newPerson.liveLink)
     setPrototypeLink(newPerson.prototypeLink)
     setCaseStudyLink(newPerson.caseStudyLink)
+    setParagraphs(newPerson.paragraphs)
+    // alert(typeof paragraphs)
   }, [])
 
   return (
@@ -70,7 +73,7 @@ const ProjectDetail = () => {
         </section>
         <section className='container tools__used'>
           <h2>tools used</h2>
-          <Skills></Skills>
+          <Skills paragraphs={paragraphs}></Skills>
         </section>
         <section className='container see__prototype'>
           <h2>see prototype</h2>

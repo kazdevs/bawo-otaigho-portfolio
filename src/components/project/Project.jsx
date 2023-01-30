@@ -4,7 +4,7 @@ import ProjectImg from '../../assets/bawo.jpg'
 // import { Link } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 
-const Project = ({ id, number, image, link, title, mainText }) => {
+const Project = ({ id, number, image, link, title, mainText, toolsUsed }) => {
   return (
     <div className='project'>
       <h1>{number}</h1>

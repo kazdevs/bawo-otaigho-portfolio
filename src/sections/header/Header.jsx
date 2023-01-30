@@ -6,7 +6,7 @@ import { delay, motion, easeOut, easeIn, easeInOut } from 'framer-motion'
 
 const Header = () => {
   return (
-    <header id='header' className='gradient__bg'>
+    <header id='header'>
       <div className='container header__container'>
         <div className='hey-div'>
           <motion.h1

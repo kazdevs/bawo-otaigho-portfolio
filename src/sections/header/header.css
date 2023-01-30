@@ -6,10 +6,10 @@ header {
   height: 100vh;
   color: white;
   /* width: 100vw; */
-  background: url(../../assets/portfolio-bg.jpg);
-  background-position: center center;
+  /* background: url(../../assets/portfolio-bg.jpg); */
+  /* background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   /* overflow-x: hidden; */
 }
 .header__container {

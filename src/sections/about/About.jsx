@@ -1,10 +1,13 @@
 import React from 'react'
+import { useState } from 'react'
 import './about.css'
 import AboutImg from '../../assets/bawo.jpg'
 import Skills from '../../components/skills/Skills'
 import Cv from '../../assets/Bawo-Otaigho-Resume.pdf'
+import data from './about-data'
 
 const About = () => {
+  const [paragraphs, setParagraphs] = useState(data)
   return (
     <section id='about'>
       <div className='container about__container'>
@@ -59,7 +62,7 @@ const About = () => {
         </div>
         <div className='about__bottom'>
           <h4>My skills</h4>
-          <Skills></Skills>
+          <Skills paragraphs={paragraphs}></Skills>
           <a href={Cv} download className='btn'>
             Download CV
           </a>

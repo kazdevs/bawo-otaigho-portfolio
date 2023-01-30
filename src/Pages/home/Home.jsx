@@ -15,8 +15,10 @@ function App() {
       transition={{ duration: 0.75, ease: easeOut }}
       exit={{ opacity: 1 }}
     >
-      <Header />
-      <About />
+      <div className='gradient__bg'>
+        <Header />
+        <About />
+      </div>
       <Projects />
       <Contact />
       {/* <Footer /> */}
