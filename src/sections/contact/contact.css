@@ -39,11 +39,11 @@
     width: 80%;
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 350;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #ffffff;
   }
   .contact__container {
@@ -57,11 +57,11 @@
     width: 80%;
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 350;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #ffffff;
   }
   .contact__btns {
