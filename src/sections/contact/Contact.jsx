@@ -11,7 +11,7 @@ const Contact = () => {
         </div>
         <p className='contact__first-p'>
           If you like what you are looking at, feel free to contact me through
-          any of the following and I’d get to you as soon as possible
+          any of the following and I’d get to you as soon as possible.
         </p>
         <div className='contact__btns'>
           <a

@@ -20,7 +20,7 @@ const data = [
     mainText: `
    The organizer mobile application is an application for creating and managing tasks with the ability to plan ahead, sort by category, check insights and statistics and receive reminders of important tasks to help plan your days and make good use to the hours.`,
     smallText: `
-    This page contains the case study of the organizer app which includes the project overview, tools used, and live link to the official product`,
+    This page contains the case study of the organizer app which includes the Project Overview, Tools Used, and Live Link to the official product`,
     paragraphs: [
       {
         id: 1,
@@ -47,7 +47,7 @@ const data = [
     mainText: `
     Tea Ecommerce Site is a website designed for a small business that deals with the sales of different types of teas in wholesale and unit.`,
     smallText: `
-    This page contains the case study of the Tea Ecommerce Site which includes the project overview, tools used, and live link to the official product`,
+    This page contains the case study of the Tea Ecommerce Site which includes the Project Overview, Tools Used, and Live Link to the official product`,
     paragraphs: [
       {
         id: 1,
@@ -73,7 +73,7 @@ const data = [
     mainText: `
     This is an NFT landing page for an nft token 3dees that you can mint as digital arts`,
     smallText: `
-    This page contains the case study of the 3Dees NFT Landing Page which includes the project overview, tools used, and live link to the official product`,
+    This page contains the case study of the 3Dees NFT Landing Page which includes the Project Overview, Tools Used, and Live Link to the official product`,
     paragraphs: [
       {
         id: 1,
@@ -100,7 +100,7 @@ const data = [
     mainText: `
    This is a landing page UI for a fictional real estate company designed by me.`,
     smallText: `
-    This page contains the case study of the Homely Landing Page. which includes the project overview, tools used, and live link to the official product`,
+    This page contains the case study of the Homely Landing Page. which includes the Project Overview, Tools Used, and Live Link to the official product`,
     paragraphs: [
       {
         id: 1,

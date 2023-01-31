@@ -168,4 +168,12 @@ img {
     font-size: 36px;
     line-height: 42px;
   }
+  .section__title .underline {
+    width: 94px;
+    height: 7px;
+    /* border: 10px solid #52d6f4; */
+    /* background: #52d6f4;
+    border-radius: 5px;
+    margin-top: 7px; */
+  }
 }
