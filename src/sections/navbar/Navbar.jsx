@@ -69,7 +69,12 @@ const Navbar = () => {
               <div className='hamburger__navbar-menu_container-links'>
                 {data.map((item) => (
                   <li key={item.id}>
-                    <Link to={`/${item.link}`}>{item.title}</Link>
+                    <Link
+                      onClick={() => setToggleMenu(false)}
+                      to={`/${item.link}`}
+                    >
+                      {item.title}
+                    </Link>
                   </li>
                 ))}
               </div>

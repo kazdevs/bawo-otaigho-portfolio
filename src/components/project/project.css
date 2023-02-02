@@ -94,8 +94,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .project {
+    /* border: 2px solid green; */
+    width: 100%;
+  }
   .project__item {
-    width: 95%;
+    width: 100%;
     height: auto;
     flex-direction: column;
     padding: 30px 0;
@@ -140,6 +144,7 @@
     height: 211px;
   }
   .project__details {
+    /* border: 2px solid red; */
     width: 95%;
     align-items: center;
     text-align: center;
