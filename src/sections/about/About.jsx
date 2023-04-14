@@ -20,11 +20,11 @@ const About = () => {
             <h4>Get to Know Me!</h4>
             <div className='about__left-paragraphs'>
               <p>
-                Hello! My name is Bawo. I’m a dedicated Ux/Ui designer based in
-                Lagos, Nigeria. I enjoy designing clean, user-intuitive
-                websites, web applications and moblie applications that leads to
-                the success of the overall product. You can check out some of my
-                work in the projects section.
+                Hello! My name is Bawo. I’m a dedicated Ux/Ui designer. I enjoy
+                designing clean, user-intuitive websites, web applications and
+                moblie applications that leads to the success of the overall
+                product. You can check out some of my work in the projects
+                section.
               </p>
               <p>
                 I also like sharing content related to Ux/Ui design that I have
