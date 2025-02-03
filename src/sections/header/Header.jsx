@@ -24,9 +24,7 @@ const Header = () => {
             animate={{ y: '0%', opacity: 1 }}
             transition={{ delay: '0.4', duration: 1.4 }}
           >
-            A dedicated Ux/Ui Designer. I enjoy designing clean, user-intuitive
-            websites, web applications and moblie applications that leads to the
-            success of the overall product.
+             I’m Bawo Otaigho, a dedicated Product Designer focused on delivering exceptional user experiences that elevate brands and drive results.
           </motion.p>
         </div>
         <div className='header__link-wrapper'>

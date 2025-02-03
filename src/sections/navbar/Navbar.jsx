@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className='logo__text'>
               <h4>Bawo OTAIGHO</h4>
               <div className='line'></div>
-              <h4>UX/UI DESIGNER</h4>
+              <h4>PRODUCT DESIGNER</h4>
             </div>
           </motion.a>
         </div>
