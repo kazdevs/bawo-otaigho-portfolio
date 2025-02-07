@@ -16,10 +16,7 @@ const Footer = () => {
         <div className='footer__text'>
           <h2>Bawo Otaigho</h2>
           <p>
-            A dedicated Ux/Ui Designer based in Lagos, Nigeria. I enjoy
-            designing clean, user-intuitive websites, web applications and
-            moblie applications that leads to the success of the overall
-            product.
+            I’m Bawo Otaigho, a dedicated Product Designer focused on delivering exceptional user experiences that elevate brands and drive results.
           </p>
         </div>
         <div className='footer__socials'>
