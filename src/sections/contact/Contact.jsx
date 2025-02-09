@@ -10,9 +10,9 @@ const Contact = () => {
           <div className="underline"></div>
         </div>
         <p className="contact__first-p">
-          For this “ Love what you see? Let’s make something amazing together!
-          Reach out through any of the following channels below, and I’ll be in
-          touch immediately 🚀
+          Love what you see? Let’s make something amazing together! Reach out
+          through any of the following channels below, and I’ll be in touch
+          immediately 🚀
         </p>
         <div className="contact__btns">
           <a
