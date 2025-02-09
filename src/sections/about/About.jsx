@@ -31,17 +31,17 @@ const About = () => {
                 learned over the years so as to help beginners looking to
                 transition into design and also update fellow designers on
                 latest design trends. Feel free to Connect or Follow me on my
-                {'  '}
-                <span style={{ color: 'red' }}>
+                {"  "}
+                <span style={{ color: "red" }}>
                   <a
-                    href='https://www.instagram.com/uidesign3r/'
-                    target='_blank'
-                    style={{ color: '#52d6f4' }}
+                    href="https://www.instagram.com/uidesign3r/"
+                    target="_blank"
+                    style={{ color: "#52d6f4" }}
                   >
-                    instagram{' '}
+                    instagram{" "}
                   </a>
                 </span>
-                {'  '}
+                {"  "}
                 where I post useful content related to ux/ui.
               </p>
               <p>
@@ -71,11 +71,20 @@ const About = () => {
                 When not working you can find me exploring new tech trends and
                 drawing inspiration from everyday life which fuels my creativity
                 and keeps my design thinking fresh and innovative. You can
-                follow me on Instagram where I post useful content related to
-                Product Design. I believe every product has a story to tell and
-                I’m committed to helping you tell yours in a way that resonates
-                deeply with your users. Let’s connect to know how I can be of
-                help.
+                follow me on {"  "}
+                <span style={{ color: "red", fontStyle: "italic" }}>
+                  <a
+                    href="https://www.instagram.com/uidesign3r/"
+                    target="_blank"
+                    style={{ color: "#52d6f4" }}
+                  >
+                    instagram{" "}
+                  </a>
+                </span>
+                {"  "} where I post useful content related to Product Design. I
+                believe every product has a story to tell and I’m committed to
+                helping you tell yours in a way that resonates deeply with your
+                users. Let’s connect to know how I can be of help.
               </p>
             </div>
             <a href="#contact" className="btn">

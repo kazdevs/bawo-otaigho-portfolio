@@ -1,52 +1,52 @@
 const data = [
   {
     id: 1,
-    p: 'Ui/Ux',
+    p: "UX/UI",
   },
   {
     id: 2,
-    p: 'user research',
+    p: "user research",
   },
   {
     id: 3,
-    p: 'interactive prototyping',
+    p: "interactive prototyping",
   },
   {
     id: 4,
-    p: 'wireframing',
+    p: "wireframing",
   },
   {
     id: 5,
-    p: 'web design',
+    p: "web design",
   },
   {
     id: 6,
-    p: 'html',
+    p: "html",
   },
   {
     id: 7,
-    p: 'user flows',
+    p: "user flows",
   },
   {
     id: 8,
-    p: 'Design Systems Creation',
+    p: "Design Systems Creation",
   },
   {
     id: 9,
-    p: 'information architecture',
+    p: "information architecture",
   },
   {
     id: 10,
-    p: 'css',
+    p: "css",
   },
   {
     id: 11,
-    p: 'usability testing',
+    p: "usability testing",
   },
   {
     id: 12,
-    p: 'responsive design',
+    p: "responsive design",
   },
-]
+];
 
-export default data
+export default data;
