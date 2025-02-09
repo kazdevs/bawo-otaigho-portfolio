@@ -12,7 +12,7 @@ const Contact = () => {
         <p className="contact__first-p">
           Love what you see? Let’s make something amazing together! Reach out
           through any of the following channels below, and I’ll be in touch
-          immediately 🚀
+          immediately🚀
         </p>
         <div className="contact__btns">
           <a
