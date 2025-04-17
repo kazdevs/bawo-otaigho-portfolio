@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./about.css";
-import AboutImg from "../../assets/bawo.jpg";
+import AboutImg from "../../assets/NewPic.JPG";
 import Skills from "../../components/skills/Skills";
 import Cv from "../../assets/BAWO_OTAIGO_RESUME.pdf";
 import data from "./about-data";
