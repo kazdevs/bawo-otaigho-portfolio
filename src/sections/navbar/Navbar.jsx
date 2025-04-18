@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "./data";
-import Logo from "../../assets/NewPic.JPG";
+import Logo from "../../assets/CroppedNewPic.jpg";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { RiCloseLine } from "react-icons/ri";
 // import { Link } from 'react-router-dom'
